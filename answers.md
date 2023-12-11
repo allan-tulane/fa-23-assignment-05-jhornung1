@@ -1,14 +1,14 @@
 # CMPS 2200 Assignment 5
 ## Answers
 
-**Name:**_________________________
+**Name:** Jacob Hornung
 
 
 
 
 
 
-- **1a.**
+- **1a.** \( \lfloor \log_d \left( (d - 1)n + 1 \right) \rfloor \)
 
 
 - **1b.**
