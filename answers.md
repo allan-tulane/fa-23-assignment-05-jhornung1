@@ -8,7 +8,7 @@
 
 
 
-- **1a.** \( \lfloor \log_d \left( (d - 1)n + 1 \right) \rfloor \)
+- **1a.** $h_d \leq \lfloor \log_d \left( (d - 1)n + 1 \right) \rfloor - 1$
 
 
 - **1b.**
