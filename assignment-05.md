@@ -62,8 +62,7 @@ terms of $\mathit{APS}(i, j, 0)$ and $\mathit{APS}(i, j, 1)$ only?
 
 c) Suppose that an oracles makes available to us all possible values
 for $\mathit{APSP}(i, j, k-1)$ for all $i, j$ and some particular value of $k-1  \le n$. Then what is the shortest path cost $\mathit{APSP}(i, j, k)$? Well, it is either $\mathit{APSP}(i,
-j, k-1)$, or some other path from $i$ to $j$ that has length $k$. Generalize your observation from b) above to give an optimal substructure property for
-$\mathit{APSP}(i, j, k).$
+j, k-1)$, or some other path from $i$ to $j$ that has length $k$. Generalize your observation from b) above to give an optimal substructure property for $\mathit{APSP}(i, j, k).$
 
 
 d) As usual naively implementing this optimal substructure
