@@ -16,9 +16,8 @@ b) In a binary heap the `delete-min` operation removes the root,
 places the rightmost leaf at the root position and restores the heap
 property by swapping downward. Similarly the `insert` operation places
 the new element as the rightmost leaf and swaps upward to restore the
-heap property. What is the work done by
-`delete-min` and `insert` operations in a $d$-ary heap? Note that the
-work differs for each operation. 
+heap property. What is the work done by `delete-min` and `insert` 
+operations in a $d$-ary heap? Note that the work differs for each operation. 
 
 
 c) Now, suppose we use a $d$-ary heap for Dijkstra's algorithm. What is the
