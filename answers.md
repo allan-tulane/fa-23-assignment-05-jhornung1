@@ -43,8 +43,8 @@ $\mathit{APSP}(2, 1, 2) = 3$.
 
 
 
-- **3a.**
+- **3a.** No, a solution to the MST problem is not guaranteed to be a solution to the MMET problem. The MST may include heavy edges that minimize the sum of weights but do not necessarily minimize the mxa edge weight, which is the goal of MMET.
 
-- **3b.**
+- **3b.** To find the next best tree after an optimal MST is unusable, sort the edges by weight and iteratively add the smallest-weight edge that doesn't create a cycle. If the resulting tree has fewer edges than the optimal MST, it is the next best tree; otherwise, stick with the optimal MST. 
 
-- **3c.**
+- **3c.** The work is $O(E log V)$
