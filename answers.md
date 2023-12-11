@@ -8,7 +8,7 @@
 
 
 
-- **1a.** $h_d \leq \lfloor \log_d \left( (d - 1)n + 1 \right) \rfloor - 1$
+- **1a.**  The maximum depth of a $d$-ary heap is $\leq \lfloor \log_d \left( (d - 1)n + 1 \right) \rfloor - 1$
 
 
 - **1b.**
